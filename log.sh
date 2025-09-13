@@ -16,7 +16,7 @@ HOSTNAME=$(hostname --fqdn 2>/dev/null || hostname)
 OUTDIR="${OUTBASE}/${HOSTNAME}_${TIMESTAMP}"
 mkdir -p "${OUTDIR}"
 
-echo "[*] إنشاء مجلد النتائج: ${OUTDIR}"
+echo "[*] create file res: ${OUTDIR}"
 
 # Helper to copy if exists
 copy_if_exists() {
